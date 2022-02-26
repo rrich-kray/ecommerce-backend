@@ -1,30 +1,30 @@
-# Ecommerce Backend
+# Ecommerce Product Database
 
 ## Description
 
-This repository contains the source code for the Ecommerce Backend project.
+This repository contains the source code for the Ecommerce Product Database.
 
 ## Table of Contents
 
-    [title](#title)
-    [description](#description)
-    [installation](#installation)
-    [licenses](#licenses)
-    [usage](#usage)
-    [contributing](#contributing)
-    [tests](#tests)
-    [email](#email)
-    [github](#github)
+[title](#title)
+[description](#description)
+[installation](#installation)
+[licenses](#licenses)
+[usage](#usage)
+[contributing](#contributing)
+[tests](#tests)
+[email](#email)
+[github](#github)
 
 ## License
 
 ## Installation
 
-Node.js is required to run the server. Download and install Node.js here https://nodejs.org/en/download/ and run npm i in a git bash terminal to intall the requisite packages.
+This project requires Node.js to function properly. Download and install Node.js here https://nodejs.org/en/download/ and run npm i in a git bash terminal to intall the requisite packages.
 
 ## Usage
 
-This repository contains code that forms the backend of an Ecommerce website. The database utilizes the Sequelize ORM library to interface with a SQL database containing product data. The database is currently not integrated with any front-end; thus functionality must be tested using an API client. Below is a link to a video demonstrating the application's functionality using Insomnia:
+This repository contains code that forms the database for a hypothetical ecommerce website. It utilizes the Sequelize ORM library to interface with a SQL database containing product data. given that the database does not currently serve a front-end, functionality must be tested using an API client. Below are links to videos demonstrating the database's functionality using Insomnia:
 
 https://drive.google.com/file/d/1ynks2wd_Sl7Q8LQrJFbX84IL3GZBOtfE/view
 
@@ -43,10 +43,6 @@ Please follow the guidelines below if you wish to contribute to this project.
 ## Issues
 
 Feel free to reach out on slack regarding any issues encountered while testing this project.
-
-## Testing
-
-N/A
 
 ## Questions
 
