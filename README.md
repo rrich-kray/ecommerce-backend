@@ -26,6 +26,10 @@ Node.js is required to run the server. Download and install Node.js here https:/
 
 This repository contains code that forms the backend of an Ecommerce website. The database utilizes the Sequelize ORM library to interface with a SQL database containing product data. The database is currently not integrated with any front-end; thus functionality must be tested using an API client. Below is a link to a video demonstrating the application's functionality using Insomnia:
 
+https://drive.google.com/file/d/1ynks2wd_Sl7Q8LQrJFbX84IL3GZBOtfE/view
+
+https://drive.google.com/file/d/1xrRCAs7Cnjt5CZJoQwbN6UU43Ud42ob9/view
+
 ## Contributing
 
 Please follow the guidelines below if you wish to contribute to this project.
