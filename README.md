@@ -20,7 +20,7 @@ This repository contains the source code for the Ecommerce Product Database.
 
 ## Installation
 
-This project requires Node.js to function properly. Download and install Node.js here https://nodejs.org/en/download/ and run npm i in a git bash terminal to intall the requisite packages.
+This project requires Node.js to function properly. Download and install Node.js here https://nodejs.org/en/download/ and run "npm i" in a git bash terminal to intall the requisite packages.
 
 ## Usage
 
