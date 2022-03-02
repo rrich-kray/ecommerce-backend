@@ -34,10 +34,14 @@ https://drive.google.com/file/d/1xrRCAs7Cnjt5CZJoQwbN6UU43Ud42ob9/view
 
 Please follow the guidelines below if you wish to contribute to this project.
 
--Fork the repo on GitHub
--Clone the project to your own machine
--Commit changes to your own branch
--Push your work back up to your fork
+-Fork the repo on GitHub  
+
+-Clone the project to your own machine  
+
+-Commit changes to your own branch  
+
+-Push your work back up to your fork  
+
 -Submit a Pull request so that I can review your changes
 
 ## Issues
