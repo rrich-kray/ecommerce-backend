@@ -36,17 +36,17 @@ Data is stored, accessed and modified in JSON format. Below are several screen s
 
 ## Installation
 
-This is a Node.js application that requires the Express.js and Sequelize.js packages to function.
+This is a Node.js application with the following dependencies:
+
+- Express.js
+- Sequelize.js
+- MySQL2
 
 To install Node.js, follow the instructions provided in the link below.
 
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
-Once Node.js is installed, the following dependencies can be installed using the Node Package Manager in a CLI:
-
-- Express.js
-- Sequelize.js
-- MySQL2
+Once Node.js is installed, all dependencies can be installed using the Node Package Manager in a CLI.
 
 ## Usage
 
