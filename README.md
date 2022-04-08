@@ -1,6 +1,6 @@
-# Ecommerce Product Database
+# Ecommerce Backend
 
-This repository contains the source code for the Ecommerce Product Database.
+This repository contains the source code for the Ecommerce Backend.
 
 ## Table of Contents
 
@@ -12,7 +12,7 @@ This repository contains the source code for the Ecommerce Product Database.
 
 ## Description
 
-Ecommerce Product Database was created to serve as the backend for a fictional Ecommerce website. This was a fun project to sink my teeth into and served as a great opportunity to further develop my competency with Express and Sequelize. That said, I feel there's still a lot of room for improvement. I plan to implement my own front-end and refeactor the existing codebase into separate route and controller components.
+Ecommerce Backend was created to serve a the front-end of a fictional Ecommerce website. This was a fun project to sink my teeth into and served as a great opportunity to further develop my competency with Express and Sequelize. That said, I feel there's still a lot of room for improvement. I plan to implement my own front-end and refeactor the existing codebase into separate route and controller components.
 
 ## How it Works
 
@@ -36,11 +36,21 @@ Data is stored, accessed and modified in JSON format. Below are several screen s
 
 ## Installation
 
-This project requires the Node.js package,
+This is a Node.js application that requires the Express.js and Sequelize.js packages to function.
+
+To install Node.js, follow the instructions provided in the link below.
+
+https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+
+Once Node.js is installed, the following dependencies can be installed using the Node Package Manager in a CLI:
+
+- Express.js
+- Sequelize.js
+- MySQL2
 
 ## Usage
 
-This repository contains code that forms the database for a hypothetical ecommerce website. It utilizes the Sequelize ORM library to interface with a SQL database containing product data. given that the database does not currently serve a front-end, functionality must be tested using an API client. Below are links to videos demonstrating the database's functionality using Insomnia:
+Given that the database does not currently serve a front-end, functionality must be tested using an API client like Insomnia. Below are links to videos demonstrating the this functionality:
 
 https://drive.google.com/file/d/1ynks2wd_Sl7Q8LQrJFbX84IL3GZBOtfE/view
 
@@ -58,7 +68,7 @@ Please follow the guidelines below if you wish to contribute to this project.
 
 ## Contact
 
-find my GitHub profile by following the link below:
+Find my GitHub profile by following the link below:
 
 https://github.com/rrich-kray/
 
