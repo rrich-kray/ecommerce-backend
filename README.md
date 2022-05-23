@@ -40,8 +40,8 @@ https://drive.google.com/file/d/1xrRCAs7Cnjt5CZJoQwbN6UU43Ud42ob9/view
 
 ## Contact
 
-GitHub: https://github.com/rrich-kray/
-Email: rrich.kray.93@gmail.com
+GitHub: https://github.com/rrich-kray/  
+Email: rrich.kray.93@gmail.com  
 Portfolio: https://react-portfolio-v1-rrich-kray.herokuapp.com/
 
 ## License
