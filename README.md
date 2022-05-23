@@ -6,6 +6,7 @@ This repository contains the source code for the Ecommerce Product Database proj
 
 [Description](#description)  
 [Installation](#installation)  
+[How It Works](#how-it-works)  
 [Usage](#usage)  
 [Contact](#contact)
 [License](#license)
