@@ -1,6 +1,6 @@
-# Ecommerce Backend
+# Ecommerce Product Database
 
-This repository contains the source code for the Ecommerce Backend.
+This repository contains the source code for the Ecommerce Product Database project.
 
 ## Table of Contents
 
@@ -12,59 +12,30 @@ This repository contains the source code for the Ecommerce Backend.
 
 ## Description
 
-Ecommerce Backend was created to serve a the front-end of a fictional Ecommerce website. This was a fun project to sink my teeth into and served as a great opportunity to further develop my competency with Express and Sequelize. That said, I feel there's still a lot of room for improvement. I plan to implement my own front-end and refeactor the existing codebase into separate route and controller components.
-
-## How it Works
-
-Three components form the backbone of Ecommerce Product Database;
-
-- The Express.js Routes
-- a MySQL database
-- The ORM models
-
-Everything starts with the MySQL database, which stores all product data. The data is organized into four tables (Products, Product Tags, Tags, Categories) that are created from Sequelize models. Express routes allow users to perform several types of database operations, including:
-
-- Query, create, update and delete products.
-- Query, create, update and delete tags
-- Query, create, update and delete categories
-- Query, create, update and delete Product Tags
-
-Data is stored, accessed and modified in JSON format. Below are several screen shots illustrating several of these database operations:
-
-![Get all Products Screenshot](./assets/images/screen1.png)
-![Create Product Screenshot](./assets/images/screen2.png)
+Ecommerce Backend was created to serve as the backend of a fictional Ecommerce website. This was a fun project to sink my teeth into and served as a great opportunity to further develop my competency with relational databases and RESTful APIs.
 
 ## Installation
 
-This is a Node.js application with the following dependencies:
+Node.js is required to run this application. Download the pre-built installer or source code for Node.js here:
 
-- Express.js
-- Sequelize.js
-- MySQL2
+https://nodejs.org/en/download/
 
-To install Node.js, follow the instructions provided in the link below.
+## How it Works
 
-https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+Ecommerce Product Database consists of the following components:
 
-Once Node.js is installed, all dependencies can be installed using the Node Package Manager in a CLI.
+- An Express.js server.
+- A relational database that holds all of the product data.
+- A Sequelize ORM framework built on top of the database.
+- A REST API that provides the framework for querying, modifying and deleting data stored in the database.
 
 ## Usage
 
-Given that the database does not currently serve a front-end, functionality must be tested using an API client like Insomnia. Below are links to videos demonstrating the this functionality:
+The videos below demonstrate the application's functionality:
 
 https://drive.google.com/file/d/1ynks2wd_Sl7Q8LQrJFbX84IL3GZBOtfE/view
 
 https://drive.google.com/file/d/1xrRCAs7Cnjt5CZJoQwbN6UU43Ud42ob9/view
-
-## Contributing
-
-Please follow the guidelines below if you wish to contribute to this project.
-
--Fork the repo on GitHub
--Clone the project to your own machine
--Commit changes to your own branch
--Push your work back up to your fork
--Submit a Pull request so that I can review your changes
 
 ## Contact
 
