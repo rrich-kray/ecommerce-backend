@@ -1,34 +1,24 @@
 # Ecommerce Product Database
 
-This repository contains the source code for the Ecommerce Product Database project.
+This repository contains the source code for the Ecommerce Backend project.
 
 ## Table of Contents
 
 [Description](#description)  
 [Installation](#installation)  
-[How It Works](#how-it-works)  
 [Usage](#usage)  
 [Contact](#contact)  
 [License](#license)
 
 ## Description
 
-Ecommerce Backend was created to serve as the backend of a fictional Ecommerce website. This was a fun project to sink my teeth into and served as a great opportunity to further develop my competency with relational databases and RESTful APIs.
+This project contains the code that comprises an Ecommerce database and server. It features a RESTful API and server built using Express.js, with a SQL database.
 
 ## Installation
 
-Node.js is required to run this application. Download the pre-built installer or source code for Node.js here:
+Node.js is required to run this application. Download and install here:
 
 https://nodejs.org/en/download/
-
-## How it Works
-
-Ecommerce Product Database consists of the following components:
-
-- An Express.js server.
-- A relational database that holds all of the product data.
-- A Sequelize ORM framework built on top of the database.
-- A REST API that provides the framework for querying, modifying and deleting data stored in the database.
 
 ## Usage
 
