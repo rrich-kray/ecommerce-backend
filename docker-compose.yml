@@ -1,0 +1,38 @@
+version: '3.8'
+
+# individual services in isolated containers
+services:
+  mysqldb:
+    image: mysql:5.7
+    restart: unless-stopped
+    env_file: ./.env
+    environment: 
+      - MYSQL_ROOT_PASSWORD=$DB_PW
+      - MYSQL_DATABASE=$DB_NAME
+    ports:
+      - $MYSQLDB_LOCAL_PORT:$DOCKER_DB_PORT
+    volumes:
+      - db:/var/lib/mysql
+  app:
+    depends_on:
+      - mysqldb
+    build: ./ecommerce_backend
+    restart: unless-stopped
+    env_file: ./.env
+    ports:
+      - $NODE_LOCAL_PORT:$NODE_DOCKER_PORT
+    environment:
+      - DB_HOST=mysqldb
+      - DB_USER=$DB_USER
+      - DB_PW=$DB_PW
+      - DB_NAME=$DB_NAME
+      - DB_PORT=$DOCKER_DB_PORT
+    stdin_open: true
+    tty: true
+
+# Named volumes that keep our data alive after restart
+volumes:
+  db:
+
+# Networked inter-service communication uses the container port (DOCKER_DB_PORT), while
+# the outside uses the host port (LOCAL_DB_PORT) 

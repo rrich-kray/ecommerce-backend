@@ -1,18 +1,13 @@
-# Ecommerce Product Database
+# Ecommerce API
 
-This repository contains the source code for the Ecommerce Backend project.
+This repository contains the source code for my Ecommerce API project.
 
 ## Table of Contents
 
-[Description](#description)  
 [Installation](#installation)  
 [Usage](#usage)  
 [Contact](#contact)  
 [License](#license)
-
-## Description
-
-This project contains the code that comprises an Ecommerce backend.
 
 ## Installation
 
